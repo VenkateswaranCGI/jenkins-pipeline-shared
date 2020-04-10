@@ -3,7 +3,8 @@
 /**
  * Send notifications based on build status string
  */
-def call(String buildStatus = 'STARTED') {
+//String buildStatus = 'STARTED'
+def call() {
   // build status of null means successful
   echo 'test'
 
