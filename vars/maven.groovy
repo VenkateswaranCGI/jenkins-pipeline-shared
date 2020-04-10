@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
 
-def call(string Message) {
+def call(String Message) {
         echo "build from the maven library"
 }
