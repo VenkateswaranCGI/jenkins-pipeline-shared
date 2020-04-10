@@ -2,5 +2,5 @@
 
 
 def call(String printmsg = 'test') {
-        echo "build from the maven library"
+        echo 'build from the maven library'
 }
