@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
 
-def call(String buildStatus = 'STARTED') {
+def call() {
         println "build from the maven library"
 }
