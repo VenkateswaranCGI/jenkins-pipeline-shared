@@ -6,5 +6,5 @@
 def call() {
   // build status of null means successful
   echo 'test'
-
+  mvn -version
 }
