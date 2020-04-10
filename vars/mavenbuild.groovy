@@ -7,4 +7,5 @@ def call() {
   // build status of null means successful
   echo 'test'
   sh 'mvn -version'
+  sh 'mvn package'
 }
