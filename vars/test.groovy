@@ -5,6 +5,7 @@
  */
 def call(String buildStatus = 'STARTED') {
   // build status of null means successful
+  echo 'test'
   buildStatus =  buildStatus ?: 'SUCCESSFUL'
 
   // Default values
