@@ -4,7 +4,7 @@ package org.foo
 class utils implements Serializable {
 
   def mvn() {
-    sh 'mvn -version'
     echo 'hello'
+    sh 'mvn -version'
   }
 }
