@@ -1,8 +1,6 @@
 package org.foo
-class Utilities implements Serializable {
-  def steps
-  Utilities(steps) {this.steps = steps}
-  def mvnbuild(args) {
-    steps.sh "${steps.tool 'Maven'}/bin/mvn -o ${args}"
+class Utilities {
+  static def mvn(script, args) {
+    script.sh "${script.tool 'Maven'}/bin/mvn -s ${script.env.HOME}/jenkins.xml -o ${args}"
   }
 }
