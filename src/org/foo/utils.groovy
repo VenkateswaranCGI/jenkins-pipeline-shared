@@ -6,6 +6,5 @@ class utils{
   def mvn(script) {
     println('hello')
     script.sh "mvn -version"
-    sh 'mvn -version'
   }
 }
