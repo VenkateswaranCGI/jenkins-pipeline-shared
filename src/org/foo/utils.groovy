@@ -6,6 +6,7 @@ class utils implements Serializable {
   }
   
   void mvn(script, args) {
-    script.sh 'mvn -version'
+    //script.sh 'mvn -version'
+    echo "hello"
   }
 }
