@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-package com.org.jenkins.stages.foo
+package com.org.jenkins.stages
 class Build {
   
   def mvnbuild(script) {
