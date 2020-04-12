@@ -1,7 +1,7 @@
 package org.foo
 class utils implements Serializable {
 
-  void mvn() {
+  static void mvn() {
     //script.sh 'mvn -version'
     echo "hello"
   }
