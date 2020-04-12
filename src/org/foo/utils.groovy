@@ -1,7 +1,6 @@
 package org.foo
-class Utilities {
-  static String foo = "bar"
-  static def mvn(script, args) {
+class Utilities implements Serializable {
+  void mvn(script, args) {
     script.sh 'mvn -version'
   }
 }
