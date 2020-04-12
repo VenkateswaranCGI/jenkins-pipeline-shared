@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-package com.org.jenkins.stages.foo
+package com.org.jenkins.stages
 class Analysis {
   
   def sonaranalysis(script) {
