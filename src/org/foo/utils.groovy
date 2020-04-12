@@ -1,5 +1,5 @@
 package org.foo
-class Utilities implements Serializable {
+class utils implements Serializable {
   void mvn(script, args) {
     script.sh 'mvn -version'
   }
