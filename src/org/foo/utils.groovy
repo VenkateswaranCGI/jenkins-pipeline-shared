@@ -5,6 +5,6 @@ class utils{
 
   def mvn() {
     println('hello')
-    sh('mvn -version')
+    sh 'mvn -version'
   }
 }
