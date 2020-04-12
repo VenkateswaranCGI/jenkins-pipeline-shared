@@ -1,8 +1,10 @@
+#!/usr/bin/env groovy
+
 package org.foo
 class utils implements Serializable {
 
-  void mvn() {
+  def mvn() {
     sh 'mvn -version'
-    println('hello')
+    echo 'hello'
   }
 }
